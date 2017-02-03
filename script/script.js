@@ -1,7 +1,8 @@
-var contenu = document.getElementById("hidden");
-var titre = document.getElementById ("cache");
+var contenus = document.getElementsByClassName("hidden");
+var titres = document.getElementsByClassName("cache");
+
 titre.addEventListener("click", function() {
-    contenu.style.display = "none";
+    contenus.style.display = "none";
 });
 // titre.addEventListener("click", function() {
 // contenu.style.display = "block";

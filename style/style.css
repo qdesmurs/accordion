@@ -39,7 +39,7 @@ aside ul {
 
 ul li {
     width: 3em;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     margin-bottom: 1em;
     background:#82CC29;
@@ -50,11 +50,9 @@ ul li {
 
 }
 
-
-ul li a:visited {
+ul li a {
     color: white;
 }
-
 
 main {
     display: inline-block;
@@ -63,19 +61,26 @@ main {
     vertical-align: top;
     text-align: center;
 }
+
 section i {
     float: left;
+    margin-top: 1em;
+    margin-left: 1em;
 }
+
 h2 {
     border-bottom: 1px solid lightgrey;
-    }
+    font-size: 1em;
+    height: 3em;
+    padding-top: 1em;
+    margin-right: 2em;
+}
 
 section article {
     display: inline-block;
     width: 45%;
     margin: 1em 1em;
-    width: inherit;
-
+    vertical-align: top;
 }
 
 main section {
@@ -95,4 +100,8 @@ button {
 
 .cache { // Pour que ça déroule
     display: none;
+}
+.hidden {
+    display: none;
+    visibility: hidden;
 }

@@ -101,7 +101,7 @@ button {
     text-transform: uppercase;
 }
 
-.cache { // Pour que ça déroule
+.cache div, .cache article {
     display: none;
 }
 .cache section {

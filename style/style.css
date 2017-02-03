@@ -73,7 +73,10 @@ h2 {
     font-size: 1em;
     height: 3em;
     padding-top: 1em;
-    margin-right: 2em;
+    transition: 2s;
+}
+h2:active {
+    background-color: #82CC29
 }
 
 section article {
@@ -102,6 +105,10 @@ button {
     display: none;
 }
 .hidden {
-    display: none;
-    visibility: hidden;
+    transition: height, 2s, linear;
+
+}
+.hidden:active {
+    display: inline-block;
+    height: auto;
 }
